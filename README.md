@@ -1,6 +1,5 @@
 # web-beta-01
 
-
 // Frank S. BETA WEBsite w template.
 // Updated website with template
 // Updated images & <h1

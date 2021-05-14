@@ -11,15 +11,19 @@ body {
 .my-name {
   text-align: center;
   font-size: x-large;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   color: #fff;
+  padding-top: 30px;
 }
 a {
+  font-family: monospace;
   text-decoration: none;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: smaller;
   color: aqua;
   
+}
+.bio {
+  font-size: small;
 }
 
 .cont {
@@ -278,9 +282,8 @@ a {
 }
 .el:nth-child(1) .el__bg:before {
   transition-delay: 0s;
-  background-image: url("https://i.ibb.co/095fLw2/0890000-0890000-R1-064-30-A.jpg");
+  background-image: url("https://i.ibb.co/myD8NkF/0168900-0168900-R1-069-33.jpg");
 }
-
 
 .el:nth-child(2) {
   transform: translate3d(105.2083333333%, 0, 0);
@@ -299,8 +302,9 @@ a {
 }
 .el:nth-child(2) .el__bg:before {
   transition-delay: 0.1s;
-  background-image: url("");
+  background-image: url("https://i.ibb.co/095fLw2/0890000-0890000-R1-064-30-A.jpg");
 }
+
 .el:nth-child(3) {
   transform: translate3d(210.4166666667%, 0, 0);
   transform-origin: 260.4166666667% 50%;
@@ -318,7 +322,7 @@ a {
 }
 .el:nth-child(3) .el__bg:before {
   transition-delay: 0.2s;
-  background-image: url("");
+  background-image: url("https://i.ibb.co/T0s66R3/doge-2.jpg");
 }
 .el:nth-child(4) {
   transform: translate3d(315.625%, 0, 0);
@@ -337,8 +341,10 @@ a {
 }
 .el:nth-child(4) .el__bg:before {
   transition-delay: 0.3s;
-  background-image: url("");
+  background-image: url("https://i.ibb.co/DQ99pfn/IMG-0950.jpg");
 }
+
+
 .el:nth-child(5) {
   transform: translate3d(420.8333333333%, 0, 0);
   transform-origin: 470.8333333333% 50%;
@@ -356,7 +362,7 @@ a {
 }
 .el:nth-child(5) .el__bg:before {
   transition-delay: 0.4s;
-  background-image: url("");
+  background-image: url("https://i.ibb.co/4V5Z7nM/https-d1e00ek4ebabms-cloudfront-net-production-e73494ae-4eb3-47d6-884b-2d9deb402463.jpg" );
 }
 .el:hover .el__bg:after {
   opacity: 0;
@@ -390,3 +396,9 @@ a {
   left: auto;
   right: 5px;
 }
+
+
+
+
+
+
